@@ -18,7 +18,7 @@ function reset() {
 }
 
 function tick() {
-    c.clear('#000');
+    c.clear();
 
     c.showHistory(document.getElementById('inputColorLine').value);
 
