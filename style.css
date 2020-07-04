@@ -1,0 +1,60 @@
+:root
+{
+    --color-primary: #3F51B5;
+    --color-primary-dark: #303F9F;
+    --color-accent: #FF6D00;
+    --color-accentDark: #bb5100;
+    --color-surface: #323232;
+
+    --border-radius: 4px;
+}
+
+*
+{
+    margin: none;
+    padding: none;
+    color: #fff;
+}
+
+body
+{
+    background: #121212;
+}
+
+canvas
+{
+    width: 50vw;
+    height: 50vw;
+}
+
+input
+{
+    margin: 8px;
+    padding: 8px;
+    background: var(--color-surface);
+    border: none;
+    border-bottom: 2px solid var(--color-accent);
+    border-radius: var(--border-radius);
+    outline: none;
+}
+
+button, button:focus
+{
+    margin: 8px;
+    padding: 8px;
+    background: var(--color-accent);
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+}
+
+button:active
+{
+    background: var(--color-accentDark);
+}
+
+span
+{
+    padding: 8px;
+}
